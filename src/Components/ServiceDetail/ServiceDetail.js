@@ -4,21 +4,29 @@ import { useParams } from 'react-router';
 
 const ServiceDetail = () => {
     
-    // const [services, setService] = useState([]);
-    // useEffect(()=>{
-    //     fetch("output.json")
-    //     .then(res=>res.json())
-    //     .then(data=>setService(data))
+    const { serviceID } = useParams();
+    const [services, setService] = useState([]);
+    const [found, setFound]= useState();
+    useEffect(()=>{
+        fetch("output.json")
+        .then(res=>res.json())
+        .then(data=>setService(data))
        
-    // },[]);
-    // const { serviceID } = useParams();
-    // const findService= services.find(service=> console.log(service.id));
+    },[]);
+    
+    useEffect(()=>{
+        const findService= services?.find(service=> service.id == serviceID);
+         setFound(findService);
+    },[]);
+    
     
     return (
         <div>
-            {/* <Container>
-             <h5>{findService.name}</h5>
-            </Container> */}
+            <Container>
+             <h5>{found?.name}</h5>
+             <img src={found?.img} alt="" />
+             <h5>{found?.description}</h5>
+            </Container>
 
         </div>
     );
