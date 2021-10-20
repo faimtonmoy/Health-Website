@@ -1,0 +1,49 @@
+body{
+    overflow-x: hidden;
+}
+.card-img{
+    height: 200px;
+    width: 270px;
+    margin-left: 15px;
+    margin-top: 10px;
+}
+.card-design{
+    height: 450px;
+    width:300px;
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-top: 10px;
+    border-radius: 10px;
+   
+}
+.card-design:hover{
+    transform: scale(1.1);
+    transition: transform 5s ease-in-out;
+}
+.card-title{
+    height: 30px;
+    font-weight: 700;
+    margin-bottom: 20px;
+    text-align:center;
+    
+}
+.card-text{
+    font-weight: 500;
+    text-align: center;
+    height: 50px;
+    margin-top: 20px;
+}
+.button-design{
+    background-color: cornflowerblue;
+    color: cornsilk;
+    border-radius: 30px;
+    margin-left: 75px;
+    margin-top: 40px;
+    
+}
+
+@media only screen and (max-width:688px){
+    .card-design{
+        margin: auto;
+    }
+}

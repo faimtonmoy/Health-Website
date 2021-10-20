@@ -1,0 +1,18 @@
+.userinfo-design{
+    width: 1000px;
+    margin: auto;
+    background-color: cornflowerblue;
+    height: 500px;
+    color: cornsilk;
+    border-radius: 10px;
+    text-align: center;
+    padding: 100px;
+    font-weight: 900;
+}
+@media only screen and (max-width:688px){
+   .userinfo-design{
+       width: 90%;
+       margin: auto;
+       
+   }
+}

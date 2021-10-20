@@ -1,0 +1,38 @@
+ [
+  {
+    "id": "1",
+    "name": "Cornea and Glucoma",
+    "description": "Cornea is the eye's outermost layer. It is the clear dome-shaped surface that covers the eyes.",
+    "img": "http://www.dishaeye.org/blog/wp-content/uploads/2020/04/10-Things-To-Know-About-Corneal-Transplant-1024x683.jpg"
+  },
+  {
+    "id": "2",
+    "name": "All Laser Lasik",
+    "description": "Lasik and PRK refractive surgery, eye exams, vision testing for glasses and contacts.",
+    "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSolWivGdjDcm3pGwvuk2pyqQP5VRZ7ZpScaROBSSEwydEeWdBJb0x8kWZ21fnpdscYJ04&usqp=CAU"
+  },
+  {
+    "id": "3",
+    "name": "Laser Cataract Surgery",
+    "description": "We are fully equiped with the most modern technology for performing sufferless cataract surgeries.",
+    "img": "https://www.newswise.com/legacy/image.php?image=%2Fimages%2Fuploads%2F2019%2F09%2F9%2Fnew_wet_lab-97.jpg&width=600&height=600"
+  },
+  {
+    "id": "4",
+    "name": "Age-Related Macular Degeneration",
+    "description": "We are fully equiped with the most modern technology for performing sufferless cataract surgeries.",
+    "img": "https://s3-ap-southeast-1.amazonaws.com/practo-fabric/viaan-eye-retina-centre-gurgaon-1490015828-58cfd654b5d9d.jpg"
+  },
+  {
+    "id": "5",
+    "name": "Diabetic Retinopathy",
+    "description": "We are fully equiped with the most modern technology for performing sufferless cataract surgeries.",
+    "img": "https://www.centreforsight.net/cfs/images/specialist/glaucoma-treatment.png"
+  },
+  {
+    "id": "6",
+    "name": "Amblyopia",
+    "description": "We are fully equiped with the most modern technology for performing sufferless cataract surgeries.",
+    "img": "https://sa1s3optim.patientpop.com/assets/images/provider/photos/2371232.jpg"
+  }
+]

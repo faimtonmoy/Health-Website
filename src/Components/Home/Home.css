@@ -1,0 +1,41 @@
+.headline-design{
+    display: flex;
+}
+.heading-design{
+    margin-left: 80px;
+    margin-top: 200px;
+    font-size: medium;
+    font-weight: 700;
+}
+.header-design{
+    font-size: xx-large;
+}
+.banner-design{
+    width: 100%;
+    height: 500px;
+    margin-left: 180px;
+}
+.span-design{
+    color: cornflowerblue;
+}
+.text-design{
+    text-align: center;
+    color: cornflowerblue;
+
+}
+@media only screen and (max-width:688px){
+    html, body{
+        overflow-x: hidden;
+    }
+    .banner-design{
+        display: none;
+    }
+    .headline-design{
+        display: block;
+    }
+    .heading-design{
+        margin-top:30px;
+        margin-bottom: 30px;
+        font-size: x-large;
+    }
+}

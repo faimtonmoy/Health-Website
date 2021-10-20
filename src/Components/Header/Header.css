@@ -1,0 +1,17 @@
+.link-design{
+    text-decoration: none;
+    display: flex;
+    color: gray;
+    padding: 10px;
+    margin-left: 10px;
+}
+.link-design:hover{
+    color: cornflowerblue;
+}
+.name-design{
+    margin-right: 10px;
+    margin-top: 10px;
+}
+.logout-design{
+    display: flex;
+}
