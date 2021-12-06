@@ -2,31 +2,21 @@ import React, { useEffect, useState } from 'react';
 import { Container } from 'react-bootstrap';
 import { useParams } from 'react-router';
 
-const ServiceDetail = () => {
-    
-    const { serviceID } = useParams();
-    const [services, setService] = useState([]);
-    const [found, setFound]= useState();
+   const ServiceDetails = () => {
+    const {serviceID} = useParams();
+    const [servicess,setServicess] = useState([]);
+    const [details, setDetails]= useState([]);
     useEffect(()=>{
-        fetch("output.json")
-        .then(res=>res.json())
-        .then(data=>setService(data))
-       
-    },[]);
-    
-    useEffect(()=>{
-        const findService= services?.find(service=> service.id == serviceID);
-         setFound(findService);
-    },[]);
-    
-    
-    return (
+        fetch('/output.JSON')
+        .then(res =>res.json())
+        .then( data => setDetails(data))
+        },[]);
+        const item= details?.find(pd=>pd.key == serviceID);
+        return (
         <div>
-            <Container>
-             <h5>{found?.name}</h5>
-             <img src={found?.img} alt="" />
-             <h5>{found?.description}</h5>
-            </Container>
+            <h1>  Name : {item?.name}</h1>
+            <img src= {item.img}/>
+             <p> {item.description}</p>
 
         </div>
     );
